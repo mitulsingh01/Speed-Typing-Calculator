@@ -1,2 +1,1 @@
-# WPM_Typing_Test
-A typing speed test in python!
+Using Python Curses Module, I've implemented Speed typing calculator which will Calculate your Typing Speed in Words per minute.
