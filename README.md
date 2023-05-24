@@ -1,1 +1,7 @@
-Using Python Curses Module, I've implemented Speed typing calculator which will Calculate your Typing Speed in Words per minute.
+This project is a Python script that implements a Speed Typing Test using the curses library. The program provides a console-based user interface where users can test their typing speed and accuracy by typing a randomly selected piece of text.
+
+The curses library is used in this code to create a text-based user interface within the console. It provides a way to control the terminal screen and handle keyboard inputs, allowing for interactive and dynamic console applications.
+
+The wpm_test function is defined, which handles the main logic of the typing test. It initializes variables for the target text, the current user input, the words per minute, and the start time. The function enters a loop where it calculates the time elapsed, updates the words per minute, clears the console screen, and displays the target text and user input using the display_text function. The loop continues until the user types the entire target text. The function handles keyboard inputs, allowing the user to type and delete characters. Once the target text is completely typed, the loop breaks.
+
+The main function is defined, which initializes the curses library and sets color pairs for displaying the text. It calls the start_screen function to display the welcome screen and enters a loop where the wpm_test function is repeatedly called. After each test is completed, a message is displayed, and the loop continues until the user presses the escape key
